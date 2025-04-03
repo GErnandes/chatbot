@@ -74,4 +74,4 @@ client.on('message', async message => {
         await delay(1000);
         const media = MessageMedia.fromFilePath('./caminho/para/promocao.pdf'); // Defina o caminho correto
         await client.sendMessage(message.from, media);
-});
+}});
